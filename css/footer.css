@@ -1,0 +1,55 @@
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(248, 248, 248);
+}
+
+.plus-icon {
+  width: 25px;
+  margin: 7px 15px 7px 15px;
+}
+
+.chat-window {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 80vw;
+  height: 27px;
+  border-radius: 25px;
+  background-color: white;
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-window input {
+  border: none;
+  font-size: 15px;
+  /* width: 70vw; */
+  border: none;
+}
+
+.chat-window__smile {
+  stroke: RGB(146, 147, 152);
+  width: 28px;
+  margin-right: 10px;
+  position: relative;
+}
+.chat-window__smile-indicator {
+  position: absolute;
+  top: 2px;
+  right: -2px;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  background-color: var(--main-color);
+}
+.send-icon {
+  width: 25px;
+  margin: 7px 30px 7px 15px;
+}
